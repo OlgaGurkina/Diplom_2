@@ -1,15 +1,13 @@
-package ru.yandex.praktikum;
+package api.model;
 
-import io.restassured.response.Response;
+import api.util.RandomParamsForUser;
 
 public class User {
+    private String email;
+    private String password;
+    private String name;
 
-        private String email;
-        private String password;
-        private String name;
-
-
-    public User(RandomParamsForUser params){
+    public User(RandomParamsForUser params) {
         this.email = params.generatedEmail;
         this.password = params.generatedPassword;
         this.name = params.generatedName;
@@ -47,9 +45,4 @@ public class User {
     public void setName(String name) {
         this.name = name;
     }
-
-
-
-
-
 }

@@ -1,7 +1,6 @@
-package ru.yandex.praktikum;
+package api.model;
 
 public class Ingredient {
-
     private String _id;
     private String name;
     private String type;

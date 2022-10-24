@@ -1,4 +1,4 @@
-package ru.yandex.praktikum;
+package api.model;
 
 public class UserForUserUpd {
     private String email;

@@ -1,7 +1,6 @@
-package ru.yandex.praktikum;
+package api.model;
 
 public class LogIn {
-
     private String email;
     private String password;
 
